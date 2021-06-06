@@ -14,3 +14,84 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+button:hover {
+  transform: scale(112%);
+  transition: 0.3s ease-in-out;
+}
+
+#grass {
+  background-color: rgb(111, 216, 179);
+}
+
+#fire {
+  background-color: rgb(255, 174, 132);
+}
+
+#water {
+  background-color: rgb(48, 164, 183);
+}
+
+#bug {
+  background-color: rgb(98, 212, 118);
+}
+
+#normal {
+  background-color: rgb(208, 159, 105);
+}
+
+#poison {
+  background-color: rgb(148, 86, 126);
+}
+
+#electric {
+  background-color: rgb(246, 235, 129);
+}
+
+#ground {
+  background-color: rgb(232, 214, 91);
+}
+
+#fairy {
+  background-color: rgb(250, 214, 208);
+}
+
+#psychic {
+  background-color: rgb(195, 179, 73);
+}
+
+#fighting {
+  background-color: rgb(185, 185, 213);
+}
+
+#rock {
+  background-color: rgb(178, 185, 166);
+}
+
+#ghost {
+  background-color: rgb(119, 89, 150);
+}
+
+#ice {
+  background-color: rgb(54, 85, 129);
+}
+
+#dragon {
+  background-color: rgb(104, 170, 223);
+}
+
+#dark {
+  background-color: rgb(68, 88, 91);
+}
